@@ -2,13 +2,13 @@
   "name": "reactnode",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "engines" : {
     "node" : "10.16.0",
-    "npm" : "6.8.2"
+    "npm" : "6.9.2"
   },
   "scripts": {
-    "start" : "node server.js"
+    "start" : "node serve"
   },
   "author": "",
   "license": "ISC",
