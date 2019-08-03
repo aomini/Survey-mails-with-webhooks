@@ -8,7 +8,7 @@
     "npm" : "6.9.2"
   },
   "scripts": {
-    "start" : "node serve"
+    "start" : "node server"
   },
   "author": "",
   "license": "ISC",
