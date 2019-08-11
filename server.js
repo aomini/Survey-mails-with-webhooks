@@ -7,6 +7,8 @@ const bodyParser = require("body-parser");
 const authMiddleware = require("./middlewares/auth");
 
 require("./models/User");
+require("./models/Survey");
+
 require("./services/passport");
 
 mongoose.connect(mongoURI, { useNewUrlParser: true });
@@ -29,6 +31,7 @@ app.use(passport.session());
 
 require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app);
+require("./routes/surveyRoutes")(app);
 
 if (process.env.NODE_ENV === "production") {
   //Express should serve production files as main.js or main .css

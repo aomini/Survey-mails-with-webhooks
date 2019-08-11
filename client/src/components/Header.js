@@ -24,7 +24,7 @@ class Header extends Component {
             Credits: {this.props.auth.credits}
           </li>,
           <li key="2">
-            <a href="/api/logout">Log Out</a>
+            <a href="/api/logout">Logout</a>
           </li>
         ];
     }
