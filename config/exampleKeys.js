@@ -2,5 +2,9 @@ module.exports = {
   googleClientID: "",
   googleClientSecret: "",
   mongoURI: "",
-  cookieKey: ""
+  cookieKey: "",
+  stripePublishable: "",
+  stripeSecret: "",
+  sendGrid: "",
+  surveyCallbackDomain: ""
 };
